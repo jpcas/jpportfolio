@@ -1,0 +1,17 @@
+.title {
+    font-family: 'Heebo', sans-serif;
+    font-size: 7.5vw;
+    padding: .01vw;
+}
+
+.description {
+    font-family: 'Heebo', sans-serif;
+}
+
+.paragraph {
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.5vw;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+}

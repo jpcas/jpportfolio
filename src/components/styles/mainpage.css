@@ -1,0 +1,28 @@
+.mainpage {
+    height: 110px;
+}
+
+.title1 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 15vw;
+    text-align: center;
+    color: whitesmoke;
+    height: 10px;
+    padding: 100px;
+  
+}
+
+.description {
+    font-family: 'Heebo', sans-serif;
+    font-size: 5vw;
+    text-align: center;
+    color: black;
+    padding: 120px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}
+ 

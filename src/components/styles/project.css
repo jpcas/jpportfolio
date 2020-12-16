@@ -1,0 +1,38 @@
+.titleprojects {
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    background: black;
+    color: whitesmoke
+}
+
+
+.bike {
+    height: 255px;
+    width: 31.11vw;
+}
+.beer {
+    height: 255px;
+    width: 31.11vw;
+}
+.boxer {
+    height: 255px;
+    width: 31.11vw;
+}
+.bikeshop {
+    font-family: 'Heebo', sans-serif;
+    background: black;
+    text-align: center;
+    color: whitesmoke;
+}
+.brew {
+    font-family: 'Heebo', sans-serif;
+    background: black;
+    text-align: center;
+    color: whitesmoke;
+}
+.punch {
+    font-family: 'Heebo', sans-serif;
+    background: black;
+    text-align: center;
+    color: whitesmoke;
+}

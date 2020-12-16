@@ -1,0 +1,23 @@
+.title10{
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 6vw;
+    padding: 75px;
+}
+
+.phone {
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 3vw;
+}
+
+.email {
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 3vw;
+}
+
+

@@ -1,0 +1,5 @@
+.navbar {
+    font-family: 'Heebo', sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
