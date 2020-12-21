@@ -7,6 +7,7 @@ import Footer from '../components/Footer'
 
 function GetInTouch() {
     return (
+      <>
         <Card className="bg-dark text-white">
         <Card.Img src="https://i.imgur.com/Dt2LNcN.jpg" alt="Card image" />
         <Card.ImgOverlay>
@@ -14,9 +15,10 @@ function GetInTouch() {
           <Card.Title className="phone">Phone: (843) 290-2038</Card.Title>
           <Card.Title className="email">Email: jpcas001@gmail.com</Card.Title>
         </Card.ImgOverlay>
-        <Footer />
-
       </Card>
+      <Footer />
+
+      </>
     )
 }
 

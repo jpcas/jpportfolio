@@ -7,7 +7,6 @@ import Projects from './Pages/Projects';
 import Technologies from './Pages/Technologies';
 import NavBar from './components/NavBar';
 import GetInTouch from './Pages/GetInTouch';
-import Footer from './components/Footer';
 
 const App = () => (
   <BrowserRouter>

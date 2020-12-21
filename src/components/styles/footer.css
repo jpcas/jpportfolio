@@ -1,7 +1,7 @@
 .text-muted {
     display: flex;
     justify-content: center;
-    background-color: #f8f9fa!important;
+    background-color: black;
 }
 
 
@@ -37,7 +37,8 @@
     font-family: 'Heebo', sans-serif;
     display: flex;
     justify-content: center; 
-    background-color: #f8f9fa!important; 
+    background-color: black;
+   
    }
 
 .sup {
@@ -45,7 +46,7 @@
     font-size: 40%;
     top: -1.2em;
     justify-content: center;
-    background-color: #f8f9fa!important;
+    background-color: black;
 }
 
   
