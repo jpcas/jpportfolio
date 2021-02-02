@@ -1,38 +1,68 @@
-.App {
+@media only screen and (max-width: 600px) {
+  .mainpage {
+    height: 110px;
+}
+
+.title1 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 15vw;
+    text-align: center;
+    color: whitesmoke;
+    height: 10px;
+    padding: 100px;
+  
+}
+
+.description {
+    font-family: 'Heebo', sans-serif;
+    font-size: 5vw;
+    text-align: center;
+    color: black;
+    padding: 120px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}
+.titleprojects {
+  font-family: 'Heebo', sans-serif;
   text-align: center;
+  background: black;
+  color: whitesmoke
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.bike {
+  height: 255px;
+  width: 31.11vw;
+}
+.beer {
+  height: 255px;
+  width: 31.11vw;
+}
+.boxer {
+  height: 255px;
+  width: 31.11vw;
+}
+.bikeshop {
+  font-family: 'Heebo', sans-serif;
+  background: black;
+  text-align: center;
+  color: whitesmoke;
+}
+.brew {
+  font-family: 'Heebo', sans-serif;
+  background: black;
+  text-align: center;
+  color: whitesmoke;
+}
+.punch {
+  font-family: 'Heebo', sans-serif;
+  background: black;
+  text-align: center;
+  color: whitesmoke;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
