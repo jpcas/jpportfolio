@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {Card, CardGroup, Button } from 'react-bootstrap'
 import '../components/styles/project.css';
 import Footer from '../components/Footer';
@@ -7,6 +7,7 @@ import Footer from '../components/Footer';
 
 
 function Projects() {
+    const [open, setOpen] = useState(false);
     const openInNewTab = (url) => {
         const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
         if (newWindow) newWindow.opener = null
@@ -101,6 +102,16 @@ function Projects() {
             <li>JavaScript</li>
         </ul>
       </Card.Text>
+      <>
+      <Button
+        onClick={() => setOpen(!open)}
+        aria-controls="example-collapse-text"
+        aria-expanded={open}
+      >
+        click
+      </Button>
+    
+      </>
     </Card.Body>
   </Card>
 </CardGroup> 
