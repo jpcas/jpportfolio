@@ -1,5 +1,5 @@
 import React from 'react'
-import {Card, Form, Col, Button} from 'react-bootstrap'
+import {Card, Button, Form, Col} from 'react-bootstrap'
 import '../components/styles/getintouch.css';
 import Footer from '../components/Footer'
 
@@ -15,9 +15,7 @@ function GetInTouch() {
           <Card.Title className="title10">Let's Get in Touch!</Card.Title>
           <Card.Title className="phone">Phone: (843) 290-2038</Card.Title>
           <Card.Title className="email">Email: jpcas001@gmail.com</Card.Title>
-        </Card.ImgOverlay>
-      </Card>
-      <Form>
+          <Form>
   <Form.Row>
     <Form.Group as={Col} controlId="formGridEmail">
       <Form.Label>First Name</Form.Label>
@@ -37,7 +35,7 @@ function GetInTouch() {
 
   <Form.Group controlId="formGridAddress2">
     <Form.Label>Comments</Form.Label>
-    <Form.Control placeholder="Leave your comments here!" />
+    <Form.Control as="textarea" placeholder="Leave your comments here!" />
   </Form.Group>
 
   
@@ -45,6 +43,9 @@ function GetInTouch() {
     Submit
   </Button>
 </Form>
+        </Card.ImgOverlay>
+      </Card>
+
       <Footer />
 
       </>
