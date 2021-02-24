@@ -13,7 +13,7 @@ function AboutMe() {
     <Card.Title className="title">About Me</Card.Title>
     <Card.Text className="paragraph">
       JP is a full-stack web developer graduate from Wyncode Academy. He enjoys designing and building front-end websites through detail crafterd code and user friendly design. 
-      During his time at Wyncode, JP has built full-stack websites. He has specialized in HTML, CSS, JacaScript, MongoDB, Express.JS, React, Node.js. 
+      During his time at Wyncode, JP has built full-stack websites. He has specialized in HTML, CSS, JavaScript, MongoDB, Express.JS, React, Node.js. 
       When JP is not writing code or/and debugging, he can be found in Miami, Florida riding his bike, taking long walks with his girlfriend Amanda and terrier Addison. 
     </Card.Text>
   </Card.ImgOverlay>
