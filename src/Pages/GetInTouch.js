@@ -18,23 +18,23 @@ function GetInTouch() {
           <Form>
   <Form.Row>
     <Form.Group as={Col} controlId="formGridEmail">
-      <Form.Label>First Name</Form.Label>
+      <Form.Label className="form-text">First Name</Form.Label>
       <Form.Control type="email" placeholder="First Name" />
     </Form.Group>
 
     <Form.Group as={Col} controlId="formGridPassword">
-      <Form.Label>Last Name</Form.Label>
+      <Form.Label className="form-text">Last Name</Form.Label>
       <Form.Control type="password" placeholder="Last Name" />
     </Form.Group>
   </Form.Row>
 
   <Form.Group controlId="formGridAddress1">
-    <Form.Label>Email</Form.Label>
+    <Form.Label className="form-text">Email</Form.Label>
     <Form.Control placeholder="Email Address" />
   </Form.Group>
 
   <Form.Group controlId="formGridAddress2">
-    <Form.Label>Comments</Form.Label>
+    <Form.Label className="form-text">Comments</Form.Label>
     <Form.Control as="textarea" placeholder="Leave your comments here!" />
   </Form.Group>
 
