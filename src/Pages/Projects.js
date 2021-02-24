@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Card, CardGroup, Button } from 'react-bootstrap'
+import {Card, CardGroup, Button, Collapse } from 'react-bootstrap'
 import '../components/styles/project.css';
 import Footer from '../components/Footer';
 
@@ -59,9 +59,17 @@ function Projects() {
 <CardGroup>
   <Card>
     <Card.Body className="bikeshop">
-      <Card.Title>Tech Used</Card.Title>
-      <Card.Text>
-      <ul>
+    <>
+      <Button
+        onClick={() => setOpen(!open)}
+        aria-controls="example-collapse-text"
+        aria-expanded={open}
+      >
+        Tech Used
+      </Button>
+      <Collapse in={open}>
+        <div id="example-collapse-text">
+        <ul>
             <li>HTML</li>
             <li>CSS</li>
             <li>React Bootstrap</li>
@@ -73,15 +81,25 @@ function Projects() {
             <li>Express</li>
             <li>JWT Passport</li>
         </ul>
-      </Card.Text>
+        </div>
+      </Collapse>
+      </>
     </Card.Body>
     
   </Card>
   <Card>
     <Card.Body className="brew">
-      <Card.Title>Tech Used</Card.Title>
-      <Card.Text>
-      <ul>
+    <>
+      <Button
+        onClick={() => setOpen(!open)}
+        aria-controls="example-collapse-text"
+        aria-expanded={open}
+      >
+        Tech Used
+      </Button>
+      <Collapse in={open}>
+        <div id="example-collapse-text">
+        <ul>
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
@@ -89,28 +107,30 @@ function Projects() {
             <li>mapbox</li>
             <li>heroku</li>
         </ul>
-      </Card.Text>
+        </div>
+      </Collapse>
+      </>
     </Card.Body>
   </Card>
   <Card>
     <Card.Body className="punch">
-      <Card.Title>Tech Used</Card.Title>
-      <Card.Text>
-        <ul>
-            <li>NodeJs</li>
-            <li>Readline Sync</li>
-            <li>JavaScript</li>
-        </ul>
-      </Card.Text>
       <>
       <Button
         onClick={() => setOpen(!open)}
         aria-controls="example-collapse-text"
         aria-expanded={open}
       >
-        click
+        Tech Used
       </Button>
-    
+      <Collapse in={open}>
+        <div id="example-collapse-text">
+        <ul>
+            <li>NodeJs</li>
+            <li>Readline Sync</li>
+            <li>JavaScript</li>
+        </ul>
+        </div>
+      </Collapse>
       </>
     </Card.Body>
   </Card>
