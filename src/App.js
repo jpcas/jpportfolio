@@ -6,7 +6,6 @@ import AboutMe from './Pages/AboutMe';
 import Projects from './Pages/Projects';
 import Technologies from './Pages/Technologies';
 import NavBar from './components/NavBar';
-import GetInTouch from './Pages/GetInTouch';
 import Contact from './Pages/Contact';
 
 const App = () => (
