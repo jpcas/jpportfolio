@@ -1,9 +1,20 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {Card, Button, Form, Col} from 'react-bootstrap';
 import '../components/styles/contact.css'
 import Footer from '../components/Footer';
 
 function Contact() {
+    const [first, setFirst] = useState('');
+    const [last, setLast] = useState('');
+    const [phone, setPhone] = useState('');
+    const [email, setEmail] = useState('');
+    const [comments, setComments] = useState('');
+
+    function handleSubmit(e) {
+        e.preventDefault()
+        console.log(first);
+        
+    }
     return (
         <>
           <Card className="bg-dark text-white">
@@ -42,7 +53,7 @@ function Contact() {
     </Form.Group>
   
     
-    <Button variant="light" type="submit" className="comment-button">
+    <Button onClick={handleSubmit} variant="light" type="submit" className="comment-button">
       Submit
     </Button>
   </Form>
