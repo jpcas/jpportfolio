@@ -13,6 +13,10 @@ function Contact() {
     function handleSubmit(e) {
         e.preventDefault()
         console.log(first);
+        console.log(last);
+        console.log(phone);
+        console.log(email);
+        console.log(comments);
         
     }
     return (
@@ -28,28 +32,28 @@ function Contact() {
     <Form.Row>
       <Form.Group as={Col} controlId="formGridEmail" >
         <Form.Label className="form-text">First Name</Form.Label>
-        <Form.Control id="first" type="first-name" placeholder="First Name" />
+        <Form.Control required onChange ={(e) => setFirst(e.target.value)} id="first" type="first-name" placeholder="First Name" />
       </Form.Group>
   
       <Form.Group as={Col} controlId="formGridPassword">
         <Form.Label className="form-text">Last Name</Form.Label>
-        <Form.Control id="last" type="last-name" placeholder="Last Name" />
+        <Form.Control required onChange ={(e) => setLast(e.target.value)} id="last" type="last-name" placeholder="Last Name" />
       </Form.Group>
     </Form.Row>
 
     <Form.Group controlId="formGridAddress1" >
       <Form.Label className="form-text">Phone Number</Form.Label>
-      <Form.Control id="phone" placeholder="Phone Number" />
+      <Form.Control required onChange ={(e) => setPhone(e.target.value)} id="phone" placeholder="Phone Number" />
     </Form.Group>
   
     <Form.Group controlId="formGridAddress1" >
       <Form.Label className="form-text">Email</Form.Label>
-      <Form.Control id="email" placeholder="Email Address" />
+      <Form.Control required onChange ={(e) => setEmail(e.target.value)} id="email" placeholder="Email Address" />
     </Form.Group>
   
     <Form.Group controlId="formGridAddress2" >
       <Form.Label className="form-text">Comments</Form.Label>
-      <Form.Control  id="comments" as="textarea" placeholder="Leave your comments here!" />
+      <Form.Control  required onChange ={(e) => setComments(e.target.value)} id="comments" as="textarea" placeholder="Leave your comments here!" />
     </Form.Group>
   
     
