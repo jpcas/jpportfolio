@@ -1,0 +1,34 @@
+.title10 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 7.5vw;
+    text-align: center;
+    color: whitesmoke;
+    height: 10px;
+    padding: 100px;
+}
+
+.phone {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 5vw;
+    font-weight: 400;
+    font-family: 'Heebo', sans-serif;
+
+
+
+}
+
+.email {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 5vw;
+    font-weight: 400;
+    font-family: 'Heebo', sans-serif;
+
+}
+
+.form-text {
+    color: black;
+    font-weight: 600;
+    font-size: 1.5vw;
+}

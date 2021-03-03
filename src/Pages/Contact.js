@@ -8,8 +8,9 @@ function Contact() {
         <>
           <Card className="bg-dark text-white">
           <Card.Img src="https://i.imgur.com/36qhXiz.jpg" alt="Card image" />
-          <Card.ImgOverlay>
-            <Card.Title className="title10">Let's Get in Touch!</Card.Title>
+          <Card.ImgOverlay>    font-family: 'Heebo', sans-serif;
+
+            <Card.Title className="title10">Contact JP</Card.Title>
             <Card.Title className="phone">Phone: (843) 290-2038</Card.Title>
             <Card.Title className="email">Email: jpcas001@gmail.com</Card.Title>
             <Form>
