@@ -12,7 +12,8 @@ function NavBar() {
       <Nav.Link href="aboutme">About Me</Nav.Link>
       <Nav.Link href="projects">Projects</Nav.Link>
       <Nav.Link href="technologies">Technologies</Nav.Link>
-      <Nav.Link href="getintouch">Get in Touch</Nav.Link>
+      <Nav.Link href="contact">Contact JP</Nav.Link>
+
 
 
 
